@@ -7,8 +7,8 @@
 
 # Site Settings
 title                    : "Yutong Hu's Homepage"
-description              : "Yutong Hu's is currently a graduate student research assistant."
-repository               : "RayeRen/acad-homepage.github.io"
+description              : "Yutong Hu's is currently a graduated student research assistant."
+repository               : "utomm/acad-homepage.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
