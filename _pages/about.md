@@ -23,7 +23,7 @@ I graduated from ShenYuan Honors College, Beihang University (Beijing University
 
 While my current research focuses on how (data-driven) **perceptions** can make robots more **autonomous and intelligent**, I still have a strong passion for hardware design and real world experiments, stemming from my background as an engineering student who embarked from the field of **Mechatronics**. 
 
-For more details, please check my [published papers](https://scholar.google.com/citations?user=BlK2gEAAAAAJ) <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> about **SLAM** and **Robot Learning**. You can also have a look at my previous tiny projects about robotics and automation.
+For more details, please check my [published papers](https://scholar.google.com/citations?user=BlK2gEAAAAAJ) <img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"> about **SLAM** and **Robot Learning**. You can also have a look at my previous tiny projects about robotics and automation.
 
 
 # 📝 Publications
