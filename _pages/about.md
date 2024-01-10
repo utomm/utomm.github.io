@@ -67,51 +67,82 @@ Ziwei Liao, **Yutong Hu**, Jiadong Zhang, Xianyu Qi, Xiaoyu Zhang, Wei Wang
 </div>
 </div>
 
+<span class='anchor' id='tiny-projects'></span>
 # ⚙️ Tiny Projects
 
+
 <html>
-    <table style="border-collapse: collapse; width: 100%; text-align: center;">
-        <tr>
-            <td>
-                <img src="images/dragon-web.gif" alt="Image 1" style="height: 180px;">
-                <br>
-                <br>
+<table style="border-collapse: collapse; width: 100%; text-align: center;">
+    <tr>
+        <td>
+            <div style="height: 180px;">
+                <img src="images/dragon-web.gif" alt="Image 1" style="height: 100%; width: auto; ">
+            </div>
+        </td>
+        <td>
+            <div style="height: 180px;">
+                <img src="images/walker-web.gif" alt="Image 2" style="height: 100%; width: auto;">
+            </div>
+        </td>
+        <td>
+            <div style="height: 180px;">
+                <img src="images/paper-web.gif" alt="Image 3" style="height: 100%; width: auto;">
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div style="height: 30px;"> <!-- Adjust the height for the caption container as needed -->
                 Dragon-like Worm
-            </td>
-            <td>
-                <img src="images/walker-web.gif" alt="Image 2" style="height: 180px;">
-                <br>
-                <br>
+            </div>
+        </td>
+        <td>
+            <div style="height: 30px;">
                 8-bar Linkage Walker
-            </td>
-            <td>
-                <img src="images/paper-web.gif" alt="Image 3" style="height: 180px;">
-                <br>
-                <br>
+            </div>
+        </td>
+        <td>
+            <div style="height: 30px;">
                 Smartphone-controlled Paper Plane
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <img src="images/maglev-web.gif" alt="Image 4" style="height: 180px;">
-                <br>
-                <br>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div style="height: 180px;">
+                <img src="images/maglev-web.gif" alt="Image 4" style="width: auto; height: 100%;">
+            </div>
+        </td>
+        <td>
+            <div style="height: 180px;">
+                <img src="images/maze-web.gif" alt="Image 5" style="width: auto; height: 100%;">
+            </div>
+        </td>
+        <td>
+            <div style="height: 180px;">
+                <img src="images/grasp-web.gif" alt="Image 6" style="width: auto; height: 100%;">
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div style="height: 30px;">
                 Maglev Prototype
-            </td>
-            <td>
-                <img src="images/maze-web.gif" alt="Image 5" style="height: 180px;">
-                <br>
-                <br>
+            </div>
+        </td>
+        <td>
+            <div style="height: 30px;">
                 2-joint Maze Solver
-            </td>
-            <td>
-                <img src="images/grasp-web.gif" alt="Image 6" style="height: 180px;">
-                <br>
-                <br>
+            </div>
+        </td>
+        <td>
+            <div style="height: 30px;">
                 Sim2Real Grasping
-            </td>
-        </tr>
-    </table>
+            </div>
+        </td>
+    </tr>
+</table>
+
 </html>
 
 
@@ -131,3 +162,11 @@ Ziwei Liao, **Yutong Hu**, Jiadong Zhang, Xianyu Qi, Xiaoyu Zhang, Wei Wang
 - *2024.01：* Outstanding Graduates Award in Beijing province
 - *2023.11：* Robotics Institute Founder's Scholarship (1/year)
 - *2016,2018-2019,2020, 2022：* Annual Full Scholarship
+
+---
+
+<html>
+<body>
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=a5a5a5&w=300&t=tt&d=0IgJWoXAmV8VcT-Y8cwpwADxpkSlsG5eGUpxm_MiWvM&co=ffffff&ct=000000&cmo=4c846f&cmn=bc7575&w=400'></script>
+</body>
+</html>
