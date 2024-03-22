@@ -21,7 +21,7 @@ I am currently a research assistant at Visual Intelligence and System Group, Com
 
 I graduated from ShenYuan Honors College, Beihang University (Beijing University of Aeronautics and Astronautics, BUAA) with a Bachelor's degree and from the Robotics Institute of Beihang University with a Master's degree, supervised by Prof. Wang Wei.
 
-While my current research focuses on how (data-driven) **perceptions** can make robots more **autonomous and intelligent**, I still have a strong passion for hardware design and real world experiments, stemming from my background as an engineering student who embarked from the field of **Mechatronics**. 
+While my current research focuses on how (data-driven) **perceptions** can make robots more **autonomous and intelligent**, I also have a strong passion for hardware design and real world experiments, stemming from my background as an engineering student who embarked from the field of **Mechatronics**. 
 
 For more details, please check my [published papers](https://scholar.google.com/citations?user=BlK2gEAAAAAJ) <img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"> about **SLAM** and **Robot Learning**. You can also have a look at my previous tiny projects about robotics and automation.
 
@@ -31,13 +31,13 @@ For more details, please check my [published papers](https://scholar.google.com/
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/dribble-web.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[DexDribbler: Learning Dexterous Soccer Control via Adaptable Feedback Supervision]()
+[DexDribbler: Learning Dexterous Soccer Manipulation via Dynamic Supervision](https://arxiv.org/abs/2403.14300)
 
-**Yutong Hu**, et.al.
+**Yutong Hu***, Wenke Han, Fisher Yu<span style="color:white">, Yifan Liu</span>
 
 <strong><span class='show_paper_citations' data=''></span></strong>
 - Make quadrupedal robot able to dribble and kick soccer ball using only ego-vision camera and onboard sensors.
-- Transfer the skill from Sim to Real by distilling a Feedback based Motion Prior into an implicit Policy Network learned from Massively Parallel Deep Reinforcement Learning process.
+- Transfer the skill from Sim to Real by distilling a Feedback based Motion Prior Generator into an implicit Policy Network learned from Massively Parallel Deep Reinforcement Learning process.
 </div>
 </div>
 
@@ -46,7 +46,7 @@ For more details, please check my [published papers](https://scholar.google.com/
 
 [Making Parameterization and Constrains of Object Landmark Globally Consistent via SPD (3) Manifold](https://arxiv.org/abs/2204.10552)
 
-**Yutong Hu**, Wang Wei
+**Yutong Hu**, Wei Wang*
 
 <strong><span class='show_paper_citations' data='BlK2gEAAAAAJ:u-x6o8ySG0sC'></span></strong>
 - Propose A Mono-camera SLAM system that can provide map with sematic-meaningful Ellipsoid landmarks to represent object in the indoor scenes.
@@ -57,12 +57,12 @@ For more details, please check my [published papers](https://scholar.google.com/
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">RA-L & ICRA 2022</div><img src='images/sym-web.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[So-slam: Semantic object slam with scale proportional and symmetrical texture constraints](https://arxiv.org/abs/2109.04884)
+[SO-SLAM: Semantic object slam with scale proportional and symmetrical texture constraints](https://arxiv.org/abs/2109.04884)
 
-Ziwei Liao, **Yutong Hu**, Jiadong Zhang, Xianyu Qi, Xiaoyu Zhang, Wei Wang
+Ziwei Liao, **Yutong Hu**, Jiadong Zhang, Xianyu Qi, Xiaoyu Zhang, Wei Wang*
 
 <strong><span class='show_paper_citations' data='BlK2gEAAAAAJ:d1gkVwhDpl0C'></span></strong>
-- Enhance monocular object SLAM algorithm by fully coupling three spatial structure (symmetrical, plane-Tangent, scale) constraints for indoor environments.
+- Enhance monocular object SLAM algorithm by fully coupling three spatial structure (Symmetrical, Plane-Tangent, Scale) constraints for indoor environments.
 - Propose a sampling-based method to detect the texture symmetry for objects in monocular images.
 </div>
 </div>
