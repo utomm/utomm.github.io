@@ -17,16 +17,29 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently a research assistant at Visual Intelligence and System Group, Computer Vision Lab, ETH Zurich, working on visual-locomotion control for manipulator and legged robots.
+I am currently a research assistant at Visual Intelligence and System Group, Computer Vision Lab, ETH Zurich, working on visual-motor policy for manipulator and legged robots.
 
 I graduated from ShenYuan Honors College, Beihang University (Beijing University of Aeronautics and Astronautics, BUAA) with a Bachelor's degree and from the Robotics Institute of Beihang University with a Master's degree, supervised by Prof. Wang Wei.
 
-While my current research focuses on how (data-driven) **perceptions** can make robots more **autonomous and intelligent**, I also have a strong passion for hardware design and real world experiments, stemming from my background as an engineering student who embarked from the field of **Mechatronics**. 
+While my current research focuses on how (data-driven) **perceptions and control** can make robots more **autonomous and intelligent**, I also have a strong passion for hardware design and real world experiments, stemming from my background as an engineering student who embarked from the field of **Mechatronics**. 
 
 For more details, please check my [published papers](https://scholar.google.com/citations?user=BlK2gEAAAAAJ) <img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"> about **SLAM** and **Robot Learning**. You can also have a look at my previous tiny projects about robotics and automation.
 
 
 # 📝 Publications
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/m3pc.gif' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Masked all-in-one Transformer for Bi-directional Model Predictive Control]()
+
+**Yutong Hu***, et al.
+
+<strong><span class='show_paper_citations' data=''></span></strong>
+- Enhance Masked Transformer for Offline RL by employing versatile capabilities from the Model itself for runtime Predictive Control.
+- Achieve better performance in offline RL and offline-to-online RL for both simulated and real-world robotic tasks, with additional goal-reaching capabilities.
+</div>
+</div>
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/dribble-web.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -66,6 +79,10 @@ Ziwei Liao, **Yutong Hu**, Jiadong Zhang, Xianyu Qi, Xiaoyu Zhang, Wei Wang*
 - Propose a sampling-based method to detect the texture symmetry for objects in monocular images.
 </div>
 </div>
+
+<!-- 
+- <span class="highlight-blue">RA-L & ICRA 2022</span>&nbsp;[SO-SLAM: Semantic object slam with scale proportional and symmetrical texture constraints](https://arxiv.org/abs/2109.04884), Ziwei Liao, **Yutong Hu**, et al. -->
+
 
 <span class='anchor' id='tiny-projects'></span>
 # ⚙️ Tiny Projects
@@ -154,14 +171,14 @@ Ziwei Liao, **Yutong Hu**, Jiadong Zhang, Xianyu Qi, Xiaoyu Zhang, Wei Wang*
 
 # 💻 Internships
 - *2023.07 - 2024 (Now)：* Research Assistant @ Visual Intelligence and System Group, Computer Vision Lab, ETH Zurich.
-- *2022.05 - 2022.10：* Research Intern @ [Samsung Research Center](https://research.samsung.com/robotics), Beijing.
+- *2022.05 - 2022.11：* Research Intern @ [Samsung Research Center](https://research.samsung.com/robotics), Beijing.
 
 # 🎖 Honors and Awards
-- *2024.01：* Samsung 2023 Best Intern
-- *2024.01：* Outstanding Master Thesis Award in Beihang University
-- *2024.01：* Outstanding Graduates Award in Beijing province
-- *2023.11：* Robotics Institute Founder's Scholarship (1/year)
-- *2016,2018-2019,2020, 2022：* Annual Full Scholarship
+- *2023.03：* Graduate Excellence in Beijing Province
+- *2023.01：* Samsung 2022 Best Intern 
+- *2023.01：* Outstanding Master Thesis Award in Beihang University
+- *2022.12：* Robotics Institute Founder's Scholarship (1/year)
+- *2016, 2018-2019, 2020, 2022：* Annual Full Scholarship
 
 ---
 
