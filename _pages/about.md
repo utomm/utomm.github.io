@@ -41,7 +41,7 @@ For more details, please check my [published papers](https://scholar.google.com/
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/dribble-web.gif' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IROS 2024</div><img src='images/dribble-web.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [DexDribbler: Learning Dexterous Soccer Manipulation via Dynamic Supervision](https://arxiv.org/abs/2403.14300)
@@ -50,7 +50,7 @@ For more details, please check my [published papers](https://scholar.google.com/
 
 <strong><span class='show_paper_citations' data=''></span></strong>
 - Make quadrupedal robot able to dribble and kick soccer ball using only ego-vision camera and onboard sensors.
-- Transfer the skill from Sim to Real by distilling a Feedback based Motion Prior Generator into an implicit Policy Network learned from Massively Parallel Deep Reinforcement Learning process.
+- Transfer the skill from Sim to Real by using a virtual Feedback Controller to guide the Deep Reinforcement Learning process of a implicit Policy Network from Massively Parallel Simulation.
 </div>
 </div>
 
@@ -63,7 +63,7 @@ For more details, please check my [published papers](https://scholar.google.com/
 
 <strong><span class='show_paper_citations' data='BlK2gEAAAAAJ:u-x6o8ySG0sC'></span></strong>
 - Propose A Mono-camera SLAM system that can provide map with sematic-meaningful Ellipsoid landmarks to represent object in the indoor scenes.
-- Further improvements on the representation of the 9-DOF object landmarks (Rotation, Translation, Scale), resulting in an improved Object SLAM system with faster and 22% more accurate back-end mapping manifold optimization process.
+- Further improvements on the representation of the 9-DOF object landmarks (Rotation, Translation, Scale), resulting in an improved Object SLAM system with faster and more accurate back-end mapping manifold optimization process.
 </div>
 </div>
 
@@ -80,8 +80,9 @@ Ziwei Liao, **Yutong Hu**, Jiadong Zhang, Xianyu Qi, Xiaoyu Zhang, Wei Wang*
 </div>
 </div>
 
-<!-- 
-- <span class="highlight-blue">RA-L & ICRA 2022</span>&nbsp;[SO-SLAM: Semantic object slam with scale proportional and symmetrical texture constraints](https://arxiv.org/abs/2109.04884), Ziwei Liao, **Yutong Hu**, et al. -->
+<!-- <br/>
+
+<span class="highlight-blue">RA-L & ICRA 2022</span>&nbsp;[SO-SLAM: Semantic object slam with scale proportional and symmetrical texture constraints](https://arxiv.org/abs/2109.04884), Ziwei Liao, **Yutong Hu**, et al. -->
 
 
 <span class='anchor' id='tiny-projects'></span>
