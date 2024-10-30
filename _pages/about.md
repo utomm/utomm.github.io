@@ -27,7 +27,7 @@ For more details, please check my [published papers](https://scholar.google.com/
 
 
 # 📝 Publications
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><video muted autoplay loop alt="sym" width="100%" poster="images/dribble-web.gif">
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><video muted autoplay loop alt="sym" width="100%">
     <source src="images/MBTT.mp4" type="video/mp4">
 </video></div></div>
 <div class='paper-box-text' markdown="1">
@@ -59,7 +59,7 @@ For more details, please check my [published papers](https://scholar.google.com/
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">RA-L & IROS 2022</div><video muted autoplay loop alt="sym" width="100%" poster="images/dribble-web.gif">
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">RA-L & IROS 2022</div><video muted autoplay loop alt="sym" width="100%">
     <source src="images/SPD-SLAM.mp4" type="video/mp4">
 </video></div></div>
 <div class='paper-box-text' markdown="1">
