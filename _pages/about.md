@@ -27,12 +27,14 @@ For more details, please check my [published papers](https://scholar.google.com/
 
 
 # 📝 Publications
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/m3pc.gif' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><video muted autoplay loop alt="sym" width="100%" poster="images/dribble-web.gif">
+    <source src="images/MBTT.mp4" type="video/mp4">
+</video></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Masked all-in-one Transformer for Bi-directional Model Predictive Control]()
 
-**Yutong Hu***, et al.
+**Yutong Hu***, et al. \| [**Code**](https://github.com/wkh923/m3pc)
 
 <strong><span class='show_paper_citations' data=''></span></strong>
 - Enhance Masked Transformer for Offline RL by employing versatile capabilities from the Model itself for runtime Predictive Control.
@@ -41,20 +43,25 @@ For more details, please check my [published papers](https://scholar.google.com/
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IROS 2024</div><img src='images/dribble-web.gif' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IROS 2024</div><video muted autoplay loop alt="sym" width="100%" poster="images/dribble-web.gif">
+    <source src="images/ball.mp4" type="video/mp4">
+</video></div></div>
 <div class='paper-box-text' markdown="1">
 
 [DexDribbler: Learning Dexterous Soccer Manipulation via Dynamic Supervision](https://arxiv.org/abs/2403.14300)
 
 **Yutong Hu***, Wenke Han, Fisher Yu<span style="color:white">, Yifan Liu</span>
 
+[**Project**](https://sites.google.com/view/dex-soccer-dribbler/home) \| [**Code**](https://github.com/SysCV/soccer-player) 
 <strong><span class='show_paper_citations' data=''></span></strong>
 - Make quadrupedal robot able to dribble and kick soccer ball using only ego-vision camera and onboard sensors.
 - Transfer the skill from Sim to Real by using a virtual Feedback Controller to guide the Deep Reinforcement Learning process of a implicit Policy Network from Massively Parallel Simulation.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">RA-L & IROS 2022</div><img src='images/spd-web.gif' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">RA-L & IROS 2022</div><video muted autoplay loop alt="sym" width="100%" poster="images/dribble-web.gif">
+    <source src="images/SPD-SLAM.mp4" type="video/mp4">
+</video></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Making Parameterization and Constrains of Object Landmark Globally Consistent via SPD (3) Manifold](https://arxiv.org/abs/2204.10552)
@@ -90,78 +97,60 @@ Ziwei Liao, **Yutong Hu**, Jiadong Zhang, Xianyu Qi, Xiaoyu Zhang, Wei Wang*
 
 
 <html>
-<table style="border-collapse: collapse; width: 100%; text-align: center;">
-    <tr>
-        <td>
-            <div style="height: 180px;">
-                <img src="images/dragon-web.gif" alt="Image 1" style="height: 100%; width: auto; ">
-            </div>
-        </td>
-        <td>
-            <div style="height: 180px;">
-                <img src="images/walker-web.gif" alt="Image 2" style="height: 100%; width: auto;">
-            </div>
-        </td>
-        <td>
-            <div style="height: 180px;">
-                <img src="images/paper-web.gif" alt="Image 3" style="height: 100%; width: auto;">
-            </div>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <div style="height: 30px;"> <!-- Adjust the height for the caption container as needed -->
-                Dragon-like Worm
-            </div>
-        </td>
-        <td>
-            <div style="height: 30px;">
-                8-bar Linkage Walker
-            </div>
-        </td>
-        <td>
-            <div style="height: 30px;">
-                Smartphone-controlled Paper Plane
-            </div>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <div style="height: 180px;">
-                <img src="images/maglev-web.gif" alt="Image 4" style="width: auto; height: 100%;">
-            </div>
-        </td>
-        <td>
-            <div style="height: 180px;">
-                <img src="images/maze-web.gif" alt="Image 5" style="width: auto; height: 100%;">
-            </div>
-        </td>
-        <td>
-            <div style="height: 180px;">
-                <img src="images/grasp-web.gif" alt="Image 6" style="width: auto; height: 100%;">
-            </div>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <div style="height: 30px;">
-                Maglev Prototype
-            </div>
-        </td>
-        <td>
-            <div style="height: 30px;">
-                2-joint Maze Solver
-            </div>
-        </td>
-        <td>
-            <div style="height: 30px;">
-                Sim2Real Grasping
-            </div>
-        </td>
-    </tr>
-</table>
-
+<head>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Creates as many columns of min 250px as can fit */
+            gap: 10px; /* Spacing between grid items */
+            padding: 10px;
+        }
+        .grid-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .grid-item img {
+            max-height: 180px;
+            width: auto;
+            margin-bottom: 5px; /* Space between the image and the text */
+        }
+        .caption {
+            height: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item">
+            <img src="images/dragon-web.gif" alt="Image 1">
+            <div class="caption">Dragon-like Worm</div>
+        </div>
+        <div class="grid-item">
+            <img src="images/walker-web.gif" alt="Image 2">
+            <div class="caption">8-bar Linkage Walker</div>
+        </div>
+        <div class="grid-item">
+            <img src="images/paper-web.gif" alt="Image 3">
+            <div class="caption">Smartphone-controlled Paper Plane</div>
+        </div>
+        <div class="grid-item">
+            <img src="images/maglev-web.gif" alt="Image 4">
+            <div class="caption">Maglev Prototype</div>
+        </div>
+        <div class="grid-item">
+            <img src="images/maze-web.gif" alt="Image 5">
+            <div class="caption">2-joint Maze Solver</div>
+        </div>
+        <div class="grid-item">
+            <img src="images/grasp-web.gif" alt="Image 6">
+            <div class="caption">Sim2Real Grasping</div>
+        </div>
+    </div>
+</body>
 </html>
+
 
 
 
