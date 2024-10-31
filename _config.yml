@@ -21,7 +21,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Yutong Hu 胡雨桐"
+  name             : "Yutong Hu <span style='white-space: nowrap;'>胡雨桐</span>"
   avatar           : "images/android-chrome-512x512.png"
   bio              : ""
   location         : "Zurich, Switzerland"

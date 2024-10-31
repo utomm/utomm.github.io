@@ -27,7 +27,7 @@ For more details, please check my [published papers](https://scholar.google.com/
 
 
 # 📝 Publications
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><video muted autoplay loop alt="sym" width="100%">
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><video muted autoplay loop alt="sym" width="100%" poster="images/MBTT.webp">
     <source src="images/MBTT.mp4" type="video/mp4">
 </video></div></div>
 <div class='paper-box-text' markdown="1">
@@ -43,7 +43,7 @@ For more details, please check my [published papers](https://scholar.google.com/
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IROS 2024</div><video muted autoplay loop alt="sym" width="100%" poster="images/dribble-web.gif">
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IROS 2024</div><video muted autoplay loop alt="sym" width="100%" poster="images/ball.webp">
     <source src="images/ball.mp4" type="video/mp4">
 </video></div></div>
 <div class='paper-box-text' markdown="1">
@@ -59,7 +59,7 @@ For more details, please check my [published papers](https://scholar.google.com/
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">RA-L & IROS 2022</div><video muted autoplay loop alt="sym" width="100%">
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">RA-L & IROS 2022</div><video muted autoplay loop alt="sym" width="100%" poster="images/SPD.webp">
     <source src="images/SPD-SLAM.mp4" type="video/mp4">
 </video></div></div>
 <div class='paper-box-text' markdown="1">
@@ -74,7 +74,7 @@ For more details, please check my [published papers](https://scholar.google.com/
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">RA-L & ICRA 2022</div><img src='images/sym-web.gif' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">RA-L & ICRA 2022</div><img src='images/sym.webp' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [SO-SLAM: Semantic object slam with scale proportional and symmetrical texture constraints](https://arxiv.org/abs/2109.04884)
@@ -113,38 +113,45 @@ Ziwei Liao, **Yutong Hu**, Jiadong Zhang, Xianyu Qi, Xiaoyu Zhang, Wei Wang*
         .grid-item img {
             max-height: 180px;
             width: auto;
-            margin-bottom: 5px; /* Space between the image and the text */
+            margin-bottom: 10px; /* Space between the image and the text */
         }
         .caption {
             height: 30px;
+            width: 90%;
             text-align: center;
+            text-align: center;
+            background-color: #f0f0f0; /* Gray background */
+            padding: 5px 10px; /* Slightly larger than the text */
+            border-radius: 5px; /* Rounded corners */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);  
         }
+                    
     </style>
 </head>
 <body>
     <div class="grid-container">
         <div class="grid-item">
-            <img src="images/dragon-web.gif" alt="Image 1">
-            <div class="caption">Dragon-like Worm</div>
+            <img src="images/dragon.webp" alt="Image 1">
+            <div class="caption"><p>Dragon-like Worm</p> </div>
         </div>
         <div class="grid-item">
-            <img src="images/walker-web.gif" alt="Image 2">
+            <img src="images/walker.webp" alt="Image 2">
             <div class="caption">8-bar Linkage Walker</div>
         </div>
         <div class="grid-item">
-            <img src="images/paper-web.gif" alt="Image 3">
+            <img src="images/paper.webp" alt="Image 3">
             <div class="caption">Smartphone-controlled Paper Plane</div>
         </div>
         <div class="grid-item">
-            <img src="images/maglev-web.gif" alt="Image 4">
+            <img src="images/maglev.webp" alt="Image 4">
             <div class="caption">Maglev Prototype</div>
         </div>
         <div class="grid-item">
-            <img src="images/maze-web.gif" alt="Image 5">
+            <img src="images/maze.webp" alt="Image 5">
             <div class="caption">2-joint Maze Solver</div>
         </div>
         <div class="grid-item">
-            <img src="images/grasp-web.gif" alt="Image 6">
+            <img src="images/grasp.webp" alt="Image 6">
             <div class="caption">Sim2Real Grasping</div>
         </div>
     </div>
