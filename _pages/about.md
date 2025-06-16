@@ -27,14 +27,16 @@ For more details, please check my [published papers](https://scholar.google.com/
 
 
 # 📝 Publications
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><video muted autoplay loop alt="sym" width="100%" poster="images/MBTT.webp">
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2025</div><video muted autoplay loop alt="sym" width="100%" poster="images/MBTT.webp">
     <source src="images/MBTT.mp4" type="video/mp4">
 </video></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Masked all-in-one Transformer for Bi-directional Model Predictive Control]()
+[M3PC: Test-time Model Predictive Control for Pretrained Masked Trajectory Model](https://arxiv.org/abs/2412.05675v1)
 
-**Yutong Hu***, et al. \| [**Code**](https://github.com/wkh923/m3pc)
+Kehan Wen†, **Yutong Hu**†, Yao Mu*, Lei Ke* 
+
+[**Project**](https://sites.google.com/view/m3pc) \| [**Code**](https://github.com/wkh923/m3pc)
 
 <strong><span class='show_paper_citations' data=''></span></strong>
 - Enhance Masked Transformer for Offline RL by employing versatile capabilities from the Model itself for runtime Predictive Control.
@@ -50,7 +52,7 @@ For more details, please check my [published papers](https://scholar.google.com/
 
 [DexDribbler: Learning Dexterous Soccer Manipulation via Dynamic Supervision](https://arxiv.org/abs/2403.14300)
 
-**Yutong Hu***, Wenke Han, Fisher Yu<span style="color:white">, Yifan Liu</span>
+**Yutong Hu***, Kehan Wen, Fisher Yu<span style="color:white">, Yifan Liu</span>
 
 [**Project**](https://sites.google.com/view/dex-soccer-dribbler/home) \| [**Code**](https://github.com/SysCV/soccer-player) 
 <strong><span class='show_paper_citations' data=''></span></strong>
