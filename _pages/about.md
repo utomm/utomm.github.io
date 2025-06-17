@@ -17,16 +17,34 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently a research assistant at Visual Intelligence and System Group, Computer Vision Lab, ETH Zurich, working on visual-motor policy for manipulator and legged robots.
+I am currently an [ELLIS](https://ellis.eu/) PhD student jointly supervised by Prof. [Renaud Detry](https://renaud-detry.net/) at KU Leuven and Prof. [Luc Van Gool](https://scholar.google.com/citations?user=TwMib_QAAAAJ) at INSAIT. My research topic focus on Cross-modality Representation for Robotic Policy Learning.
 
-I graduated from ShenYuan Honors College, Beihang University (Beijing University of Aeronautics and Astronautics, BUAA) with a Bachelor's degree and from the Robotics Institute of Beihang University with a Master's degree, supervised by Prof. Wang Wei.
+I graduated at Beihang University (Beijing University of Aeronautics and Astronautics, BUAA), from ShenYuan Honors College with a Bachelor's degree and from the University's Robotics Institute with a Master's degree, supervised by Prof. Wang Wei. Prior to beginning my Ph.D program, I also gained valuable research experience at Samsung Research and ETH Zurich.
 
-While my current research focuses on how (data-driven) **perceptions and control** can make robots more **autonomous and intelligent**, I also have a strong passion for hardware design and real world experiments, stemming from my background as an engineering student who embarked from the field of **Mechatronics**. 
+While my current research focuses on **data-driven perception and control** (people call it Embodied AI nowadays...), I also have a strong passion for hardware design and real world experiments, stemming from my background as an engineering student who embarked from the field of **Mechatronics**. 
 
-For more details, please check my [published papers](https://scholar.google.com/citations?user=BlK2gEAAAAAJ) <img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"> about **SLAM** and **Robot Learning**. You can also have a look at my previous tiny projects about robotics and automation.
+For more details, please check my [published papers](https://scholar.google.com/citations?user=BlK2gEAAAAAJ) <img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"> about **Robot Perception** and **Robot Learning**. You can also have a look at my previous tiny projects about robotics and automation.
 
 
 # 📝 Publications
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><video muted autoplay loop alt="sym" width="100%" poster="images/minidi.webp">
+    <source src="images/minidi.mp4" type="video/mp4">
+</video></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Mini Diffuser: Fast Multi-task Diffusion Policy Training Using Two-level Mini-batches](https://arxiv.org/abs/2505.09430)
+
+**Yutong Hu***, Pinhao Song, Kehan Wen, Renaud Detry
+
+[**Project**](https://mini-diffuse-actor.github.io/) \| [**Code**](https://github.com/utomm/mini-diffuse-actor)
+
+<strong><span class='show_paper_citations' data=''></span></strong>
+- Train a Multi-Task Diffusion Policy on RLBench-18 in One Day with One GPU
+- Achieves 95% of the performance of best-at-the-time multi-task diffusion policies, while using only 5% of the training time and 7% of the memory. 
+- [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/train-a-multi-task-diffusion-policy-on/robot-manipulation-on-rlbench)](https://paperswithcode.com/sota/robot-manipulation-on-rlbench?p=train-a-multi-task-diffusion-policy-on)
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2025</div><video muted autoplay loop alt="sym" width="100%" poster="images/MBTT.webp">
     <source src="images/MBTT.mp4" type="video/mp4">
 </video></div></div>
@@ -34,7 +52,7 @@ For more details, please check my [published papers](https://scholar.google.com/
 
 [M3PC: Test-time Model Predictive Control for Pretrained Masked Trajectory Model](https://arxiv.org/abs/2412.05675v1)
 
-Kehan Wen†, **Yutong Hu**†, Yao Mu*, Lei Ke* 
+Kehan Wen†, **Yutong Hu**†, Yao Mu\*, Lei Ke\* 
 
 [**Project**](https://sites.google.com/view/m3pc) \| [**Code**](https://github.com/wkh923/m3pc)
 
@@ -76,7 +94,7 @@ Kehan Wen†, **Yutong Hu**†, Yao Mu*, Lei Ke*
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">RA-L & ICRA 2022</div><img src='images/sym.webp' alt="sym" width="100%"></div></div>
+<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">RA-L & ICRA 2022</div><img src='images/sym.webp' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [SO-SLAM: Semantic object slam with scale proportional and symmetrical texture constraints](https://arxiv.org/abs/2109.04884)
@@ -87,11 +105,11 @@ Ziwei Liao, **Yutong Hu**, Jiadong Zhang, Xianyu Qi, Xiaoyu Zhang, Wei Wang*
 - Enhance monocular object SLAM algorithm by fully coupling three spatial structure (Symmetrical, Plane-Tangent, Scale) constraints for indoor environments.
 - Propose a sampling-based method to detect the texture symmetry for objects in monocular images.
 </div>
-</div>
+</div> -->
 
-<!-- <br/>
+ <br/>
 
-<span class="highlight-blue">RA-L & ICRA 2022</span>&nbsp;[SO-SLAM: Semantic object slam with scale proportional and symmetrical texture constraints](https://arxiv.org/abs/2109.04884), Ziwei Liao, **Yutong Hu**, et al. -->
+<span class="highlight-blue">RA-L & ICRA 2022</span>&nbsp;[SO-SLAM: Semantic object slam with scale proportional and symmetrical texture constraints](https://arxiv.org/abs/2109.04884) Ziwei Liao, **Yutong Hu**, Jiadong Zhang, Xianyu Qi, Xiaoyu Zhang, Wei Wang*
 
 
 <span class='anchor' id='tiny-projects'></span>
@@ -164,12 +182,13 @@ Ziwei Liao, **Yutong Hu**, Jiadong Zhang, Xianyu Qi, Xiaoyu Zhang, Wei Wang*
 
 
 # 📖 Educations
+- *2024.11 - 2025 (Now)：* Ph.D candidate, Research Unit of Robotics, Automation and Mechatronics (RAM), KU Leuven
 - *2020.09 - 2023.03：* M.Phil., the Robotics Institute, School of Mechanical Engineering and Automation, Beihang University
 - *2016.09 - 2020.06：* B.Eng., ShenYuan Honors College, Beihang University
 
 
 # 💻 Internships
-- *2023.07 - 2024 (Now)：* Research Assistant @ Visual Intelligence and System Group, Computer Vision Lab, ETH Zurich.
+- *2023.07 - 2024.10：* Research Assistant @ Visual Intelligence and System Group, [Computer Vision Lab](https://vision.ee.ethz.ch/people/alumni.html), ETH Zurich.
 - *2022.05 - 2022.11：* Research Intern @ [Samsung Research Center](https://research.samsung.com/robotics), Beijing.
 
 # 🎖 Honors and Awards

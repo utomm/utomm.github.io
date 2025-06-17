@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Yutong Hu's Homepage"
-description              : "Yutong (\"u-tom\") Hu is currently a graduated student interested in robotics."
+description              : "Yutong (\"u-tom\") is currently a PhD student working on robotics."
 repository               : "utomm/acad-homepage.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -24,7 +24,7 @@ author:
   name             : "Yutong Hu <span style='white-space: nowrap;'>胡雨桐</span>"
   avatar           : "images/android-chrome-512x512.png"
   bio              : ""
-  location         : "Zurich, Switzerland"
+  location         : "Leuven, Belgium"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=BlK2gEAAAAAJ"
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : # e.g., "github username"
+  github           : utomm
   google_plus      :
   keybase          :
   instagram        :
