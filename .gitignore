@@ -1,4 +1,4 @@
 _site/
 push.sh
 .DS_Store
-./Gemfile.lock
+Gemfile.lock
